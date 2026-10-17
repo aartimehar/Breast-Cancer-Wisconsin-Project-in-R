@@ -16,4 +16,7 @@ The diagnosis label was assigned by a human pathologist using clinical ground tr
 | `texture_mean` | Grey-scale variance of nucleus | Continuous | ✅ |
 | `area_mean` | Mean nucleus area (mm²) | Continuous | ✅ |
 
-Full dictionary covers all 32 columns → [see docs/data-dictionary.md]
+
+## ⚙️ Methodology
+```text
+Raw CSV → Load & validate → EDA → Feature selection → Train/test split → Model → Evaluate
